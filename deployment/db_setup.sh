@@ -10,13 +10,13 @@ sudo mysql_secure_installation
 
 sudo mysql -u root -p
 
-CREATE USER 'your_username'@'%' IDENTIFIED BY 'your_password';
+CREATE USER 'vinit'@'%' IDENTIFIED BY 'Vinit_46';
 
-GRANT ALL PRIVILEGES ON *.* TO 'your_username'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'vinit'@'%';
 
-ALTER USER 'username'@'%' IDENTIFIED WITH mysql_native_password BY 'your_password';
+ALTER USER 'vinit'@'%' IDENTIFIED WITH mysql_native_password BY 'Vinit_46';
 
-GRANT GRANT OPTION ON *.* TO 'username'@'%';
+GRANT GRANT OPTION ON *.* TO 'vinit'@'%';
 
 FLUSH PRIVILEGES;
 EXIT;
